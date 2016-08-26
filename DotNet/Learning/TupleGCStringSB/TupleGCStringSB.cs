@@ -15,6 +15,7 @@ namespace ConsoleApplication1
 			tgc.GarbaseCollect();
 			tgc.CreateTupples();
 			tgc.StrVSSTrBuilder();
+			
 			System.Console.WriteLine("...");
 		}
 	}
