@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlTypes;
 using System.Data.SqlClient;
@@ -12,9 +8,9 @@ namespace StoredProcedure
 {
 	class SroredProcedureTest
 	{
-		static void Main(string[] args)
+		public static string connectionString = "Server=SP2013ii;Database=TestDB;Trusted_Connection=True;";
+		public static void Main(string[] args)
 		{
-			string connectionString = "Server=SP2013ii;Database=TestDB;Trusted_Connection=True;";
 			string sql = "SELECT " + "Id, Name, Label" + " FROM TestTable";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -36,6 +32,20 @@ namespace StoredProcedure
                     connection.Close();
                 }
             }
+		}
+		public static void InvokeStoredProcudure()
+		{
+			using (SqlConnection con = new SqlConnection(connectionString))
+			{
+				using (SqlCommand cmd = new SqlCommand("sp_Add_contact", con))
+				{
+					cmd.CommandType = CommandType.StoredProcedure;
+					//cmd.Parameters.Add("@FirstName", SqlDbType.VarChar).Value = txtFirstName.Text;
+					//cmd.Parameters.Add("@LastName", SqlDbType.VarChar).Value = txtLastName.Text;
+					con.Open();
+					cmd.ExecuteNonQuery();
+				}
+			}
 		}
 	}
 }
