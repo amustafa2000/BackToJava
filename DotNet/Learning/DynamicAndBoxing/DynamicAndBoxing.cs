@@ -18,6 +18,7 @@ namespace amdev.com
 			subClass.ChildrenDoIt(2);
 			subClass.DynamicMethod(1);
 			subClass.DynamicMethod("Really", "x", "y", "z");
+			subClass.DynamicMethod("Really", "x", "y", 1);
 			MySuperClass fromSubClass = subClass;
 			MySubClass sameSubClass = (MySubClass)fromSubClass;
 			// *** dynamic
