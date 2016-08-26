@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tests
+namespace ConsoleApplication1
 {
 	public class Program
 	{
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
 			TestClass tgc = new TestClass();
 			tgc.GarbaseCollect();
@@ -75,7 +75,7 @@ namespace Tests
 			{
 				throw e;
 			}
-			
+
 		}
 	}
 
