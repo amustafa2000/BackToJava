@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-	public class Program
+	public class TupleGCStringSB
 	{
 		public static void Main(string[] args)
 		{

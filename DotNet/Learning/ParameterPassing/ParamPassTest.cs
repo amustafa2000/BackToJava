@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ParameterPassing
 {
-	class Program
+	class ParameterPassingTest
 	{
 		static void Main(string[] args)
 		{

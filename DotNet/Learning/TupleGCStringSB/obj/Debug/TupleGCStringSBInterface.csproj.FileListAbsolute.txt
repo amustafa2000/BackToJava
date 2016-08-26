@@ -1,0 +1,13 @@
+C:\Work\Git\BackToJava\DotNet\Boxing\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Work\Git\BackToJava\DotNet\Boxing\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Work\Git\BackToJava\DotNet\Boxing\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Work\Git\BackToJava\DotNet\Learing\TupleGCStringSB\bin\Debug\ConsoleApplication1.exe.config
+C:\Work\Git\BackToJava\DotNet\Learing\TupleGCStringSB\bin\Debug\ConsoleApplication1.exe
+C:\Work\Git\BackToJava\DotNet\Learing\TupleGCStringSB\bin\Debug\ConsoleApplication1.pdb
+C:\Work\Git\BackToJava\DotNet\Learing\TupleGCStringSB\obj\Debug\ConsoleApplication1.exe
+C:\Work\Git\BackToJava\DotNet\Learing\TupleGCStringSB\obj\Debug\ConsoleApplication1.pdb
+C:\Work\Git\BackToJava\DotNet\Learning\TupleGCStringSB\bin\Debug\ConsoleApplication1.exe.config
+C:\Work\Git\BackToJava\DotNet\Learning\TupleGCStringSB\bin\Debug\ConsoleApplication1.exe
+C:\Work\Git\BackToJava\DotNet\Learning\TupleGCStringSB\bin\Debug\ConsoleApplication1.pdb
+C:\Work\Git\BackToJava\DotNet\Learning\TupleGCStringSB\obj\Debug\ConsoleApplication1.exe
+C:\Work\Git\BackToJava\DotNet\Learning\TupleGCStringSB\obj\Debug\ConsoleApplication1.pdb
