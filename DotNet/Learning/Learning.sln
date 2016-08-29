@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterPassing", "Paramet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleGCStringSBInterface", "TupleGCStringSB\TupleGCStringSBInterface.csproj", "{5B121718-A39F-4507-80D5-C030F315B3BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayVsList", "ArrayVsList\ArrayVsList.csproj", "{B8251712-9CC8-4D18-8973-9993A0BA28ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayVsArrayListVsList", "ArrayVsList\ArrayVsArrayListVsList.csproj", "{B8251712-9CC8-4D18-8973-9993A0BA28ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoredProcedure", "StoredProcedure\StoredProcedure.csproj", "{DF2E1390-DFD8-447C-8330-DCBC8D9A2CCA}"
 EndProject

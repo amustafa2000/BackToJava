@@ -7,7 +7,7 @@
     <ProjectGuid>{B8251712-9CC8-4D18-8973-9993A0BA28ED}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ArrayVsList</RootNamespace>
+    <RootNamespace>ArrayVsArrayListVsList</RootNamespace>
     <AssemblyName>ArrayVsList</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ArrayVsArrayListVsList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

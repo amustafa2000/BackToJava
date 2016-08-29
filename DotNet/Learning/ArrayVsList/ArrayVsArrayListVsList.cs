@@ -5,15 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace ArrayVsList
+namespace ArrayVsArrayListVsList
 {
-	class Program
+	class ArrayVsArrayListVsList
 	{
 		static void Main(string[] args)
 		{
 			int[] a = new int[] { 1, 2, 33 };
 			Console.WriteLine("a = " + a[0]);
-			
+			int xxx = 3;
+			int[] ip = new int[xxx];
+			ip[0] = 0;
+			ip[1] = 1;
+			ip[2] = 2;
+
+
 			List<int> intList = new List<int>();
 			intList.Add(1);
 			intList.Add(2);
