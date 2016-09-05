@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncExample", "FuncExample\FuncExample.csproj", "{A1272202-5222-4C58-9EED-B7031D73730F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassExample", "PartialClassExample\PartialClassExample.csproj", "{9753710C-6839-4364-9DCD-670157A5DB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordEncryption", "PasswordEncryption\PasswordEncryption.csproj", "{B7303E51-28C6-4655-8455-B0ADF7A2B5C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{78E1E49B-557D-4912-A81D-D9194C1E9083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,11 +61,20 @@ Global
 		{A1272202-5222-4C58-9EED-B7031D73730F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1272202-5222-4C58-9EED-B7031D73730F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1272202-5222-4C58-9EED-B7031D73730F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9753710C-6839-4364-9DCD-670157A5DB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9753710C-6839-4364-9DCD-670157A5DB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9753710C-6839-4364-9DCD-670157A5DB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9753710C-6839-4364-9DCD-670157A5DB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7303E51-28C6-4655-8455-B0ADF7A2B5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7303E51-28C6-4655-8455-B0ADF7A2B5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7303E51-28C6-4655-8455-B0ADF7A2B5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7303E51-28C6-4655-8455-B0ADF7A2B5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
