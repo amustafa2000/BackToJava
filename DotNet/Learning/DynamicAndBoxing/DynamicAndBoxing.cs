@@ -16,7 +16,8 @@ namespace amdev.com
 			Console.WriteLine("superClass.day = " + superClass.day);
 			MySubClass subClass = new MySubClass(2);
 			subClass.ChildrenDoIt(2);
-			subClass.DynamicMethod(1);
+			// subClass.DynamicMethod(1);// NOT ALLOWED
+			subClass.DynamicMethod(1, 3);
 			subClass.DynamicMethod("Really", "x", "y", "z");
 			subClass.DynamicMethod("Really", "x", "y", 1);
 			MySuperClass fromSubClass = subClass;
@@ -30,7 +31,7 @@ namespace amdev.com
 			x = subClass;
 			x.SubClassMethod();
 			Console.WriteLine("Type now = " + x.GetType());
-
+			sameSubClass.printMe();
 			int xxxx = 2;
 		}
 	}
@@ -40,6 +41,7 @@ namespace amdev.com
 		public enum Days { Sun, Mon, tue, Wed, thu, Fri, Sat }; 
 		public int id;
 		public int day;
+		public string dayString;
 		public MySuperClass()
 		{
 		}
@@ -47,6 +49,7 @@ namespace amdev.com
 		{
 			this.id = id;
 			this.day = (int)Days.Fri;
+			//this.dayString = Days.Fri;
 		}
 		public virtual void ChildrenDoIt(int x)
 		{
@@ -72,14 +75,26 @@ namespace amdev.com
 			//this.Days
 			// Does not work
 		}
-		public void DynamicMethod(dynamic x, params dynamic [] xx)
+		public void DynamicMethod(dynamic x, dynamic z, params dynamic [] xx)
 		{
 			Console.WriteLine("the type is = " + x.GetType());
-
+			
 		}
 		public virtual void ChildrenDoIt(int x)
 		{
 			Console.WriteLine("In CHILDREN virtual method ");
+		}
+		public void printMe()
+		{
+			int x = 8;
+			for (int i = 0; i <= 15; i++) {  
+                if (i == 4) {  
+                    continue;  
+                }  
+                Console.WriteLine("I = " + i);
+				if (i == 10) break;
+            }
+			int xxx = 0;
 		}
 	}
 

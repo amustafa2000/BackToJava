@@ -12,15 +12,15 @@ namespace ParameterPassing
 		{
 			ParamPassTest tests = new ParamPassTest();
 			String forOut = "Before";
-			String forOut2 = "Before2";
+			String forOut2;
 			String returned = "retBefore";
 			String refParam = "This a refParam";
+			String refParam2 = "This a refParam2";
 			Console.WriteLine("forOut Before = " + forOut);
-			Console.WriteLine("forOut Before2 = " + forOut2);
 			Console.WriteLine("returned Before = " + returned);
 			Console.WriteLine("refParam Before = " + refParam);
 
-			returned = tests.test(out forOut, "First", "Second", out forOut2, ref refParam);
+			returned = tests.test(out forOut, "First", "Second", out forOut2, ref refParam, ref refParam2);
 			Console.WriteLine("forOut After = " + forOut);
 			Console.WriteLine("forOut2 After = " + forOut2);
 			Console.WriteLine("returned After = " + returned);
@@ -37,7 +37,7 @@ namespace ParameterPassing
 
 		}
 
-		public String test(out string forOut, string s, string y, out string forOut2, ref String refParam)
+		public String test(out string forOut, string s, string y, out string forOut2, ref String refParam, ref String refParam2)
 		{
 			Console.WriteLine("got this s = " + s);
 			Console.WriteLine("got this y = " + y);
