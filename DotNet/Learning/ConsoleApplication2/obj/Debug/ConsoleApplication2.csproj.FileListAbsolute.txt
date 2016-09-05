@@ -1,5 +1,0 @@
-C:\Work\Git\BackToJava\DotNet\Learning\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
-C:\Work\Git\BackToJava\DotNet\Learning\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
-C:\Work\Git\BackToJava\DotNet\Learning\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
-C:\Work\Git\BackToJava\DotNet\Learning\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
-C:\Work\Git\BackToJava\DotNet\Learning\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

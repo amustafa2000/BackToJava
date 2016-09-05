@@ -1,5 +1,0 @@
-C:\Work\Git\BackToJava\DotNet\Learning\FuncExample\bin\Debug\FuncExample.exe.config
-C:\Work\Git\BackToJava\DotNet\Learning\FuncExample\bin\Debug\FuncExample.exe
-C:\Work\Git\BackToJava\DotNet\Learning\FuncExample\bin\Debug\FuncExample.pdb
-C:\Work\Git\BackToJava\DotNet\Learning\FuncExample\obj\Debug\FuncExample.exe
-C:\Work\Git\BackToJava\DotNet\Learning\FuncExample\obj\Debug\FuncExample.pdb
