@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordEncryption", "Passw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{78E1E49B-557D-4912-A81D-D9194C1E9083}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumeratorVsIEnumarable", "IEnumeratorVsIEnumarable\IEnumeratorVsIEnumarable.csproj", "{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVSReadOnly", "ConstVSReadOnly\ConstVSReadOnly.csproj", "{9A324217-9F41-4978-822E-280B3832A7F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,14 @@ Global
 		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78E1E49B-557D-4912-A81D-D9194C1E9083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A324217-9F41-4978-822E-280B3832A7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A324217-9F41-4978-822E-280B3832A7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A324217-9F41-4978-822E-280B3832A7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A324217-9F41-4978-822E-280B3832A7F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
