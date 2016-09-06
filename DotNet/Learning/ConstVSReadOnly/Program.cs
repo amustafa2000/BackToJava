@@ -8,13 +8,22 @@ namespace ConstVSReadOnly
 {
 	class Program
 	{
-		public const int aTob = 100;//Compile time constant
-		public static readonly int ro; // Runtime constant Can wait till runtime DEFAULT CONFIG
-
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
-			Console.WriteLine(aTob);
-			Console.WriteLine(ro);
+			ReadOnlyTest rot = new ReadOnlyTest();
+		}
+	}
+
+	class ReadOnlyTest
+	{
+		public readonly int roOne = 5;
+		public const int conOne = 7;
+
+		public ReadOnlyTest()
+		{
+			// Changing constant is not allowed
+			//conOne = 9;
+			roOne = 7;
 		}
 	}
 }
