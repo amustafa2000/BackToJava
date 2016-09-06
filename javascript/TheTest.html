@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Test page</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	<div id="a">UP</div>
+	<div id="b">DOWN</div>
+	<div><button id="myButtonClosure" type="button"> Click Me closure</button></div>
+	<div><button id="myButtonNoClosure" type="button"> Click Me NO closure</button></div>
+	<div><button id="upDown" type="button"> Up to Down</button></div>
+	<div><button id="upDownNonJquery" type="button"> Up to Down Non Jquery</button></div>
+	<div>
+		In my life, I used the following web search engines:<br/>
+		<a href="//www.yahoo.com">Yahoo!</a><br/>
+		<a href="//www.altavista.com">AltaVista</a><br/>
+		<a href="//www.bing.com">AltaVista</a><br/>
+		<a href="//www.google.com">Google</a><br/>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td>
+					Up
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Up
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Down
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Down
+				</td>
+			</tr>
+		</table>
+		<input type="text"> </input>
+		<input type="text"> </input>
+	</div>
+<script>
+  $(document).ready(function(){
+	  function buttonClicked(i){
+		  return function(){
+			  alert("button Clicked in CLOSURE " + i);
+		  }
+	  }
+	  function buttonClickedNOClosure(){
+		  alert("button Clicked NO CLOSURE");
+	  }
+	  function addStuff() {
+		  document.getElementById("myButtonClosure").addEventListener('click', buttonClicked(3), false);
+		  document.getElementById("myButtonNoClosure").addEventListener('click', buttonClickedNOClosure, false);
+		  document.getElementById("upDown").addEventListener('click', doUpDown, false);
+		  document.getElementById("upDownNonJquery").addEventListener('click', doUpDownNonJQuery, false);
+	  }
+	  function doUpDown() {
+		  var elements = $('td');
+		  for(var i=0; i<elements.length;i++) {
+			  if(elements[i].innerText.trim() == 'Up'){
+				  elements[i].innerText = 'Down';
+			  }else if(elements[i].innerText.trim() == 'Down'){
+				  elements[i].innerText = 'Up';
+			  }
+		  }
+		  var elementsInputs = $('input');
+		  for(var i=0; i<elementsInputs.length;i++) {
+			  if(elementsInputs[i].value.trim() == ''){
+				  elementsInputs[i].value = 'Type';
+			  }else if(elementsInputs[i].value.trim() == 'Type'){
+				  elementsInputs[i].value = '';
+			  }
+		  }
+	  }
+	  function doUpDownNonJQuery() {
+		  var elements = document.getElementsByTagName('td');
+		  for(var i=0; i<elements.length;i++) {
+			  if(elements[i].innerText.trim() == 'Up'){
+				  elements[i].innerText = 'Down';
+			  }else if(elements[i].innerText.trim() == 'Down'){
+				  elements[i].innerText = 'Up';
+			  }
+		  }
+	  }
+	  function registerHandlers() {
+		  var as = document.getElementsByTagName('a');
+		  for (var i = 0; i < as.length; i++) {
+			  as[i].onclick = linkClicked(i);
+		  }
+	  }
+	  function linkClicked( i ){
+		  return function(){
+			  alert(i);
+			  return false;
+		  }
+	  }
+	  registerHandlers();
+	  addStuff();
+  });
+</script>
+
+</body>
+</html>
