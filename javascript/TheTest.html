@@ -57,7 +57,14 @@
 	</div>
 <script>
   $(document).ready(function(){
+      var myJSON = ['aaa','bbb'];
       $("html").append("<button>Click Alert!</button>");
+      (function addFromJSON() {
+          for(var i =0 ;i<myJSON.length; i++){
+              var theName = myJSON[i];
+              $("html").append("<button>"+theName+"</button>");
+          }
+      })();
 	  function buttonClicked(i){
 		  return function(){
 			  alert("button Clicked in CLOSURE " + i);
@@ -129,19 +136,23 @@
           var nameEndingXXX = $("[id$='XXX']");
           console.log("Should see 2 = " + nameEndingXXX.length);
       })();
+      //Self Invoking function pass parameters
+      (function selfInvokingFunction2(p1, p2) {
+          console.log("p1 = " + p1);
+          console.log("p2 = " + p2);
+      })(3, 4);
       (function animateExpander( ) {
-          $( "#expander" ).animate(
-                  {
-                      width: "10px",
-                      height: "10px"
-                  },
-                  3000 )
+          $( "#expander" )
                   .animate(
-                          {
-                              width: "20px",
-                              height: "20px"
-                          },
-                          3000 );
+                      {
+                          width: "10px",
+                          height: "10px"
+                      }, 3000 )
+                  .animate(
+                      {
+                          width: "20px",
+                          height: "20px"
+                      }, 3000 );
       })();
 	  registerHandlers();
 	  addStuff();
