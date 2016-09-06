@@ -1,6 +1,0 @@
-C:\Work\Git\BackToJava\DotNet\Learning\IEnumeratorVsIEnumarable\bin\Debug\IEnumeratorVsIEnumarable.exe.config
-C:\Work\Git\BackToJava\DotNet\Learning\IEnumeratorVsIEnumarable\bin\Debug\IEnumeratorVsIEnumarable.exe
-C:\Work\Git\BackToJava\DotNet\Learning\IEnumeratorVsIEnumarable\bin\Debug\IEnumeratorVsIEnumarable.pdb
-C:\Work\Git\BackToJava\DotNet\Learning\IEnumeratorVsIEnumarable\obj\Debug\IEnumeratorVsIEnumarable.csprojResolveAssemblyReference.cache
-C:\Work\Git\BackToJava\DotNet\Learning\IEnumeratorVsIEnumarable\obj\Debug\IEnumeratorVsIEnumarable.exe
-C:\Work\Git\BackToJava\DotNet\Learning\IEnumeratorVsIEnumarable\obj\Debug\IEnumeratorVsIEnumarable.pdb
