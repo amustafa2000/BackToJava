@@ -12,6 +12,7 @@ public class SortTester {
 		People p1 = new People(3);
 		People p2 = new People(2);
 		People p3 = new People(1);
+		People p4 = new People(4);
 		
 		List<People> pList = new ArrayList<People>();
 		pList.add(p1);
