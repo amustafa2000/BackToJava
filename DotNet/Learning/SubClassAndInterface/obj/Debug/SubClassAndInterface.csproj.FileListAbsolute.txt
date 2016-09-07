@@ -1,6 +1,0 @@
-C:\Work\Git\BackToJava\DotNet\Learning\SubClassAndInterface\obj\Debug\SubClassAndInterface.csprojResolveAssemblyReference.cache
-C:\Work\Git\BackToJava\DotNet\Learning\SubClassAndInterface\bin\Debug\SubClassAndInterface.exe.config
-C:\Work\Git\BackToJava\DotNet\Learning\SubClassAndInterface\bin\Debug\SubClassAndInterface.exe
-C:\Work\Git\BackToJava\DotNet\Learning\SubClassAndInterface\bin\Debug\SubClassAndInterface.pdb
-C:\Work\Git\BackToJava\DotNet\Learning\SubClassAndInterface\obj\Debug\SubClassAndInterface.exe
-C:\Work\Git\BackToJava\DotNet\Learning\SubClassAndInterface\obj\Debug\SubClassAndInterface.pdb
