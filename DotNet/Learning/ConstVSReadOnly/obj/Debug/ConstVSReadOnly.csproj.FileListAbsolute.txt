@@ -1,5 +1,0 @@
-C:\Work\Git\BackToJava\DotNet\Learning\ConstVSReadOnly\bin\Debug\ConstVSReadOnly.exe.config
-C:\Work\Git\BackToJava\DotNet\Learning\ConstVSReadOnly\bin\Debug\ConstVSReadOnly.exe
-C:\Work\Git\BackToJava\DotNet\Learning\ConstVSReadOnly\bin\Debug\ConstVSReadOnly.pdb
-C:\Work\Git\BackToJava\DotNet\Learning\ConstVSReadOnly\obj\Debug\ConstVSReadOnly.exe
-C:\Work\Git\BackToJava\DotNet\Learning\ConstVSReadOnly\obj\Debug\ConstVSReadOnly.pdb
