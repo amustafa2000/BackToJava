@@ -10,6 +10,10 @@ namespace IEnumeratorVsIEnumarable
 	{
 		static void Main(string[] args)
 		{
+
+			string xxx = "http://sp2013ii:8081/#/security ";
+			Uri refDataUri = new Uri(xxx);
+			string refDataHost = refDataUri.Host;
 			List<int> intList = new List<int>();
 			intList.Add(10);
 			intList.Add(20);
