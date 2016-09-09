@@ -1,6 +1,0 @@
-C:\Work\Git\BackToJava\DotNet\Learning\SQLTransaction\bin\Debug\SQLTransaction.exe.config
-C:\Work\Git\BackToJava\DotNet\Learning\SQLTransaction\bin\Debug\SQLTransaction.exe
-C:\Work\Git\BackToJava\DotNet\Learning\SQLTransaction\bin\Debug\SQLTransaction.pdb
-C:\Work\Git\BackToJava\DotNet\Learning\SQLTransaction\obj\Debug\SQLTransaction.csprojResolveAssemblyReference.cache
-C:\Work\Git\BackToJava\DotNet\Learning\SQLTransaction\obj\Debug\SQLTransaction.exe
-C:\Work\Git\BackToJava\DotNet\Learning\SQLTransaction\obj\Debug\SQLTransaction.pdb
