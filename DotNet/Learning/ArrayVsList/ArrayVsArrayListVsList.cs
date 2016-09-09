@@ -14,6 +14,7 @@ namespace ArrayVsArrayListVsList
 
 			Hashtable ht = new Hashtable();
 			ht.Add("one", "1");
+			ht.Add("xx", 1);
 			bool one = ht.Contains("one");
 			bool two = ht.Contains("two");
 			foreach (object item in ht.Keys)
@@ -39,8 +40,14 @@ namespace ArrayVsArrayListVsList
 			SomeClass[] someClassesArray = new SomeClass[3];
 			someClassesArray[0] = new SomeClass();
 			someClassesArray[1] = new SomeClass();
-			someClassesArray[2] = new SomeClass();
+			someClassesArray[2] = new SubSomeClass(); // SubSomeClass is same type of SomeClass
 			Console.WriteLine("a = " + a[0]);
+
+			foreach (SomeClass sc in someClassesArray)
+			{
+				Console.WriteLine(sc);
+			}
+
 			int xxx = 3;
 			int[] ip = new int[xxx];
 			ip[0] = 0;
@@ -52,6 +59,11 @@ namespace ArrayVsArrayListVsList
 			intList.Add(1);
 			intList.Add(2);
 
+			List<object> objList = new List<object>();
+			objList.Add(1);
+			objList.Add("aaa");
+			objList.Add(new SubSomeClass());
+			objList.Add(new SomeClass());
 
 			ArrayList al = new ArrayList();
 			al.Add(1);
@@ -75,6 +87,10 @@ namespace ArrayVsArrayListVsList
 		}
 	}
 	class SomeClass
+	{
+
+	}
+	class SubSomeClass:SomeClass
 	{
 
 	}

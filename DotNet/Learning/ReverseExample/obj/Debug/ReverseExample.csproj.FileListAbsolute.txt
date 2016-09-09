@@ -1,0 +1,6 @@
+C:\Work\Git\BackToJava\DotNet\Learning\ReverseExample\bin\Debug\ReverseExample.exe.config
+C:\Work\Git\BackToJava\DotNet\Learning\ReverseExample\bin\Debug\ReverseExample.exe
+C:\Work\Git\BackToJava\DotNet\Learning\ReverseExample\bin\Debug\ReverseExample.pdb
+C:\Work\Git\BackToJava\DotNet\Learning\ReverseExample\obj\Debug\ReverseExample.csprojResolveAssemblyReference.cache
+C:\Work\Git\BackToJava\DotNet\Learning\ReverseExample\obj\Debug\ReverseExample.exe
+C:\Work\Git\BackToJava\DotNet\Learning\ReverseExample\obj\Debug\ReverseExample.pdb

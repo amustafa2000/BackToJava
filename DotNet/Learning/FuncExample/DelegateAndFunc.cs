@@ -22,12 +22,12 @@ namespace DelegateAndFunc
 			Console.WriteLine("Wrong " + addOne2(2));
 			Console.WriteLine("Wrong " + AddOneWrong(2));
 
-			Func<int, int> anotherTest = delegate(int someIntx)
+			Func<string, int, int> anotherTest = delegate(string x, int someIntx)
 			{
 				return someIntx + 4;
 			};
 
-			Console.WriteLine("delegate XX " + anotherTest(2));
+			Console.WriteLine("delegate XX " + anotherTest("", 2));
 
 			int oo = 0;
 		}
