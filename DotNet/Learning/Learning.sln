@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVSReadOnly", "ConstVSR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubClassAndInterfaceSORT", "SubClassAndInterface\SubClassAndInterfaceSORT.csproj", "{4448C69C-948C-4C8D-A690-BD098A3DA071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Creational-FactoryMethod", "DP-Creational-FactoryMethod\DP-Creational-FactoryMethod.csproj", "{100C1390-EC1C-4BDC-AC57-20D32261A5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Creational-Singleton", "DP-Creational-Singleton\DP-Creational-Singleton.csproj", "{4F761322-2954-41BF-B14D-66606B1B5E7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,14 @@ Global
 		{4448C69C-948C-4C8D-A690-BD098A3DA071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4448C69C-948C-4C8D-A690-BD098A3DA071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4448C69C-948C-4C8D-A690-BD098A3DA071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100C1390-EC1C-4BDC-AC57-20D32261A5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100C1390-EC1C-4BDC-AC57-20D32261A5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100C1390-EC1C-4BDC-AC57-20D32261A5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100C1390-EC1C-4BDC-AC57-20D32261A5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
