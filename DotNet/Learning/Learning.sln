@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Creational-FactoryMethod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Creational-Singleton", "DP-Creational-Singleton\DP-Creational-Singleton.csproj", "{4F761322-2954-41BF-B14D-66606B1B5E7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Facade", "DP-Facade-Structural\DP-Structural-Facade.csproj", "{CF927B50-9F43-4E63-8701-8D56EDDC4B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Adapter", "DP-Structural-Adapter\DP-Structural-Adapter.csproj", "{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +107,14 @@ Global
 		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F761322-2954-41BF-B14D-66606B1B5E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF927B50-9F43-4E63-8701-8D56EDDC4B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF927B50-9F43-4E63-8701-8D56EDDC4B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF927B50-9F43-4E63-8701-8D56EDDC4B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF927B50-9F43-4E63-8701-8D56EDDC4B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

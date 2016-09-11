@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>d3495c5f-c63b-4685-918d-bceacce8d48c</ProjectGuid>
+    <ProjectGuid>{CF927B50-9F43-4E63-8701-8D56EDDC4B61}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DP_Facade_Structural</RootNamespace>
-    <AssemblyName>DP_Facade_Structural</AssemblyName>
+    <AssemblyName>DP-Facade-Structural</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -12,20 +12,14 @@ namespace DP_Structural_Adapter
 		/// MainApp startup class for Structural
 		/// Adapter Design Pattern.
 		/// </summary>
-		class MainApp
+		static void Main()
 		{
-			/// <summary>
-			/// Entry point into console application.
-			/// </summary>
-			static void Main()
-			{
-				// Create adapter and place a request
-				Target target = new Adapter();
-				target.Request();
+			// Create adapter and place a request
+			Target target = new Adapter();
+			target.Request();
 
-				// Wait for user
-				Console.ReadKey();
-			}
+			// Wait for user
+			Console.ReadKey();
 		}
 
 		/// <summary>

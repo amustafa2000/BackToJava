@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>4e7365d6-4dd9-4d29-be5c-53ef559905d1</ProjectGuid>
+    <ProjectGuid>{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DP_Structural_Adapter</RootNamespace>
-    <AssemblyName>DP_Structural_Adapter</AssemblyName>
+    <AssemblyName>DP-Structural-Adapter</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
