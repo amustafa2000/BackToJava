@@ -39,6 +39,8 @@ namespace SubClassAndInterface
 			InImpl inimpl = new InImpl();
 			int result = inimpl.DoIt(5);
 			int r2 = inimpl.DoIt2(6);
+			MyInterface myInterface = new InImpl();
+			myInterface.DoIt(5);
 			int xx = 0;
 		}
 	}
