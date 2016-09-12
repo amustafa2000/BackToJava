@@ -21,6 +21,9 @@ namespace ParameterPassing
 			Console.WriteLine("refParam Before = " + refParam);
 
 			returned = tests.test(out forOut, "First", "Second", out forOut2, ref refParam, ref refParam2);
+
+			object[] arrayAsPARAMS = new object[3];
+			returned = tests.test(out forOut, "First", "Second", out forOut2, ref refParam, ref refParam2, arrayAsPARAMS);
 			Console.WriteLine("forOut After = " + forOut);
 			Console.WriteLine("forOut2 After = " + forOut2);
 			Console.WriteLine("returned After = " + returned);
@@ -37,7 +40,7 @@ namespace ParameterPassing
 
 		}
 
-		public String test(out string forOut, string s, string y, out string forOut2, ref String refParam, ref String refParam2)
+		public String test(out string forOut, string s, string y, out string forOut2, ref String refParam, ref String refParam2, params object[] paramObjs)
 		{
 			Console.WriteLine("got this s = " + s);
 			Console.WriteLine("got this y = " + y);

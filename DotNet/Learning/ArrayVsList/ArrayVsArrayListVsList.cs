@@ -11,7 +11,8 @@ namespace ArrayVsArrayListVsList
 	{
 		static void Main(string[] args)
 		{
-
+			// ** Generic is type safe. Collection is not.
+			// ** Hashtable key value pairs
 			Hashtable ht = new Hashtable();
 			ht.Add("one", "1");
 			ht.Add("xx", 1);
@@ -29,13 +30,15 @@ namespace ArrayVsArrayListVsList
 			 {
                Console.WriteLine("keys={0} values={1}", di.Key, di.Value);
 			}
-			//********** IMP nullaboe andy operator is ?
+			//** IMP nullaboe andy operator is ?
 			int? i = null;
-			//********** IMP nullaboe andy operator is ?
+			//** IMP nullaboe andy operator is ?
 			object someobj = "";
 	
 			SomeClass xxxsss = someobj as SomeClass;
 
+
+			// ** Create arrays with fixed dimensions
 			int[] a = new int[] { 1, 2, 33 };
 			SomeClass[] someClassesArray = new SomeClass[3];
 			someClassesArray[0] = new SomeClass();
@@ -77,12 +80,20 @@ namespace ArrayVsArrayListVsList
 			Console.WriteLine("xx== operator result is {0}", name == name2);
 			Console.WriteLine("xxEquals method result is {0}", name.Equals(name2));
 			
-			
-			
 			char[] values = { 's', 'a', 'n', 'd', 'e', 'e', 'p' };
 			object myNamex = new string(values);
 			Console.WriteLine("hhxx== operator result is {0}", name == myNamex);
 			Console.WriteLine("hhxxEquals method result is {0}", name.Equals(myNamex));
+
+			Dictionary<int, string> myDictionary = new Dictionary<int, string>();
+			myDictionary.Add(1, "one");
+			// ** Update a value ACCESS the Key as INDEX
+			myDictionary[1] = "updatedOne";
+			foreach (KeyValuePair<int, string> pair in myDictionary)
+			{
+				Console.WriteLine("{0}, {1}", pair.Key, pair.Value);
+			}
+			Console.WriteLine("hhxx== operator result is {0}", myDictionary[1]);
 			Console.ReadKey();
 		}
 	}

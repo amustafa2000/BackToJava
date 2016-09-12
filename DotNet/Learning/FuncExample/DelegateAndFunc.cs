@@ -8,7 +8,9 @@ namespace DelegateAndFunc
 {
 	class DelegateAndFunc
 	{
+		// ** A delegate can be seen as a placeholder for a/some method(s).
 		public delegate int AddOne(int somthing);
+
 		static void Main(string[] args)
 		{
 			Func<int, int> funcAddOne = theInt => theInt + 1;
