@@ -9,7 +9,7 @@ namespace UnitTestProject
 		{
 			TestClass adTest = new TestClass();
 			adTest.TestMethod();
-
+			// Just a test
 			//Some Commit
 		}
 	}
