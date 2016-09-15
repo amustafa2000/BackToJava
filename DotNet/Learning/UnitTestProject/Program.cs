@@ -9,6 +9,8 @@ namespace UnitTestProject
 		{
 			TestClass adTest = new TestClass();
 			adTest.TestMethod();
+
+			//Some Commit
 		}
 	}
 
