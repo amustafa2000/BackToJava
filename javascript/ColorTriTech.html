@@ -14,7 +14,7 @@
             var colorAfterDays = "No Color";
             //Throw exception for -ve
             if (daysAfterToday < 0){
-                throw new Exception("daysAfterToday cannot be negative");
+                throw new Error("daysAfterToday cannot be negative");
             }
             // Saturday or Sun day
             if ((daysAfterToday + 1) % 7 == 0 || (daysAfterToday + 1) % 7 == 6){
