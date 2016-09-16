@@ -16,6 +16,14 @@ namespace ColorOfTheDay
 			{
 				Console.WriteLine(e.Message);
 			}
+			//Example Run from 0 (the same) day to 20
+			for (int i = 0; i <= 20; i++)
+			{
+				Console.WriteLine("Color after {0} day will be {1}", i, color_of_the_day(i));
+			}
+			//Enable user to see the resutls
+			Console.WriteLine("Press any key to exit the program");
+			Console.ReadKey();
 		}
 		/*
 		 *	Assume today is Monday and company is making Red Cars 
@@ -35,8 +43,8 @@ namespace ColorOfTheDay
 				return "No Color";
 			}
 			int numOfSevenDayPeriod = (daysAfterToday) / 7;
-			int daysAfterSevenDayPeriods = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
-			int colorChangeDays = (daysAfterSevenDayPeriods) % 7;
+			int totalWorkDays = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
+			int colorChangeDays = (totalWorkDays) % 7;// As there are seven colors
 			return colorArray[colorChangeDays];
 		}
 	}

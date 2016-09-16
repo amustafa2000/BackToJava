@@ -1,4 +1,5 @@
 function color_of_the_day(daysAfterToday){
+    console.log("daysAfterToday = " + daysAfterToday);
     var colorArray = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black"];
     //Throw exception for -ve
     if (daysAfterToday < 0){
@@ -9,8 +10,8 @@ function color_of_the_day(daysAfterToday){
         return "No Color";
     }
     var numOfSevenDayPeriod = Math.floor(daysAfterToday/7);
-    var daysAfterSevenDayPeriods = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
-    var colorChangeDays = (daysAfterSevenDayPeriods) % 7;
+    var totalWorkDays = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
+    var colorChangeDays = (totalWorkDays) % 7;// As thre are seven colors
     return colorArray[colorChangeDays];
 }
 if(process.argv.length != 3){

@@ -6,6 +6,15 @@ public class ColorTriTech {
 			int daysAfterToday = Integer.parseInt(args[0]);
 			String color = color_of_the_day(daysAfterToday);
 			System.out.println("Color after "+ daysAfterToday +" day will be " + color);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		//Example Run from 0 (the same) day to 20
+		try {
+			for(int i=0;i<=20;i++){
+				System.out.println("Color after "+ i +" day will be " + color_of_the_day(i));	
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -22,8 +31,8 @@ public class ColorTriTech {
 			return "No Color";
 		}
 		int numOfSevenDayPeriod = (daysAfterToday) / 7;
-		int daysAfterSevenDayPeriods = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
-		int colorChangeDays = (daysAfterSevenDayPeriods) % 7;
+		int totalWorkDays = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
+		int colorChangeDays = (totalWorkDays) % 7;// As there are seven colors
 		return colorArray[colorChangeDays];
 	}
 }
