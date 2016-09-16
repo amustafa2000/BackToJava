@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+
+        function color_of_the_day(daysAfterToday){
+            var colorArray = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black"];
+            var colorAfterDays = "No Color";
+            //Throw exception for -ve
+            if (daysAfterToday < 0){
+                throw new Exception("daysAfterToday cannot be negative");
+            }
+            // Saturday or Sun day
+            if ((daysAfterToday + 1) % 7 == 0 || (daysAfterToday + 1) % 7 == 6){
+                return colorAfterDays;
+            }
+            var numOfSevenDayPeriod = Math.floor(daysAfterToday/7);
+            var daysAfterSevenDayPeriods = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
+            var colorChangeDays = (daysAfterSevenDayPeriods) % 7;
+            console.log("daysAfterToday = " + daysAfterToday);
+            console.log("numOfSevenDayPeriod = " + numOfSevenDayPeriod);
+            console.log("daysAfterSevenDayPeriods = " + daysAfterSevenDayPeriods);
+            console.log("colorChangeDays = " + colorChangeDays);
+            console.log("COLOR Using colorArray= " + colorArray[colorChangeDays]);
+            return colorArray[colorChangeDays];
+        }
+        color_of_the_day(18);
+        color_of_the_day(19);
+        color_of_the_day(20);
+        color_of_the_day(21);
+
+    });
+</script>
+</body>
+</html>
