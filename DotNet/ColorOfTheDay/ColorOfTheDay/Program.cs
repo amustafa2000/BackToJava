@@ -29,9 +29,9 @@ namespace ColorOfTheDay
 		 *	Assume today is Monday and company is making Red Cars 
 		 *
 		 */
-		public static String color_of_the_day(int daysAfterToday)
+		public static string color_of_the_day(int daysAfterToday)
 		{
-			String[] colorArray = new String[] { "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black" };
+			string[] colorArray = new string[] { "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black" };
 			//Throw exception for -ve
 			if (daysAfterToday < 0)
 			{
