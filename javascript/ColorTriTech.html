@@ -5,6 +5,30 @@
     <title>color_of_the_day</title>
 </head>
 <body>
+Here is the javascript version. Console (F12) should already have the result of invocation of the method color_of_the_day:
+<pre><code>
+function color_of_the_day(daysAfterToday){
+	var colorArray = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black"];
+	//Throw exception for -ve
+	if (daysAfterToday < 0){
+		throw new Error("daysAfterToday cannot be negative");
+	}
+	// Saturday or Sun day
+	if ((daysAfterToday + 1) % 7 == 0 || (daysAfterToday + 1) % 7 == 6){
+		return "No Color";
+	}
+	var numOfSevenDayPeriod = Math.floor(daysAfterToday/7);
+	var totalWorkDays = numOfSevenDayPeriod * 5 + daysAfterToday % 7;
+	var colorChangeDays = (totalWorkDays) % 7;// As there are seven colors
+	return colorArray[colorChangeDays];
+}
+//Example Run from 0 (the same) day to 20
+for(var i=0;i<=20;i++){
+	console.log("Color after "+ i +" day will be  " + color_of_the_day(i));
+}
+</code></pre>
+
+
 <script>
     function color_of_the_day(daysAfterToday){
         var colorArray = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black"];
