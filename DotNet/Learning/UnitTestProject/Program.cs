@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using Moq;
 
 namespace UnitTestProject
 {
@@ -29,6 +30,7 @@ namespace UnitTestProject
 	[TestFixture]
 	public class TestClass
 	{
+		Mock<Adder> repositoryMock = new Mock<Adder>();
 		[Test]
 		public void TestMethod()
 		{
@@ -36,7 +38,9 @@ namespace UnitTestProject
 
 			try
 			{
-				Assert.AreEqual(2, adder.AddTheNumbers(1, 21));
+				repositoryMock.Setup(a => a.AddTheNumbers(3,21));
+				Assert.AreEqual(2, repositoryMock.Setup(x => x.AddTheNumbers(1, 21)).Returns(3));
+				//Assert.AreEqual(2, adder.AddTheNumbers(1, 21));
 				Console.WriteLine("passed");
 			}
 			catch (Exception e)
