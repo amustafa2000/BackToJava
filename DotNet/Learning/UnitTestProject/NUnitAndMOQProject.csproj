@@ -7,7 +7,7 @@
     <ProjectGuid>{FCA0154D-D598-44CA-A200-65B7545317D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProject</RootNamespace>
+    <RootNamespace>NUnitAndMOQProject</RootNamespace>
     <AssemblyName>UnitTestProject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
