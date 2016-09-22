@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestDB", "IntegrationTestDB\IntegrationTestDB.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExample\EventExample.csproj", "{DC2243C3-F4F0-4774-9679-D9647F51AD45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
