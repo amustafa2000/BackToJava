@@ -32,15 +32,18 @@ namespace TypeGC
 			Console.WriteLine(dog is Animal);
 			Console.WriteLine(dog is Dog);
 
+
+			// *** Auto disposible *** using USING
 			using (DisposibleExample de = new DisposibleExample())
 			{
 
 				// Using will call Disposer()
 			}
-
+			// *** Manual dispose ***
 			DisposibleExample de2 = new DisposibleExample();
-
 			de2.Dispose();
+
+	
 			Console.ReadKey();
 		}
 	}
