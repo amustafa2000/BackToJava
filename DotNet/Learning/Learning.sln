@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Facade", "DP-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Adapter", "DP-Structural-Adapter\DP-Structural-Adapter.csproj", "{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitAndMOQProject", "UnitTestProject\NUnitAndMOQProject.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestDB", "IntegrationTestDB\IntegrationTestDB.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject

@@ -1,7 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
+using Moq;
 
-namespace UnitTestProject
+namespace NUnitAndMOQProject
 {
 	class Program
 	{
@@ -9,21 +10,46 @@ namespace UnitTestProject
 		{
 			TestClass adTest = new TestClass();
 			adTest.TestMethod();
-			// Just a test
-			//Some Commit
+		}
+	}
+	public class CheckEmployee
+	{
+		public virtual Boolean checkEmp()
+		{
+			throw new NotImplementedException();
 		}
 	}
 
-	public class Adder
+	public class ProcessEmployee
 	{
-		public Adder()
+		public Boolean insertEmployee(CheckEmployee objtmp)
 		{
+			objtmp.checkEmp();
+			return true;
+		}
+	}
+	public class NumberAdder
+	{
+		public virtual int ExecuteAddTheNumbers(NumberBank adder)
+		{
+			return adder.numberOne + adder.numberTwo;
+		}
+	}
+	public class NumberBank
+	{
+		public int numberOne = 0;
+		public int numberTwo = 0;
+		public NumberBank(int a, int b)
+		{
+			this.numberOne = a;
+			this.numberTwo = b;
 		}
 
-		public int AddTheNumbers(int i, int j)
+		public virtual int AddTheNumbers(NumberAdder ua)
 		{
-			return i+j;
+			return ua.ExecuteAddTheNumbers(this);
 		}
+
 	}
 
 	[TestFixture]
@@ -32,19 +58,38 @@ namespace UnitTestProject
 		[Test]
 		public void TestMethod()
 		{
-			Adder adder = new Adder();
+			/*
+			 //These 3 lines gives error
+			checkEmployee ce = new checkEmployee();
+			processEmployee pe = new processEmployee();
+			pe.insertEmployee(ce);
+			 */
 
+			Mock<CheckEmployee> chk = new Mock<CheckEmployee>();
+			chk.Setup(x => x.checkEmp()).Returns(true);
+
+			ProcessEmployee obje = new ProcessEmployee();
+			Assert.AreEqual(obje.insertEmployee(chk.Object), true);
 			try
 			{
-				Assert.AreEqual(2, adder.AddTheNumbers(1, 21));
+				NumberBank adder = new NumberBank(3,3);
+				NumberAdder twoN = new NumberAdder();
+				Assert.AreEqual(6, twoN.ExecuteAddTheNumbers(adder));
+
+
+
+				NumberBank numberBack = new NumberBank(5, 5);
+				Mock<NumberAdder> mockUA = new Mock<NumberAdder>();
+				mockUA.Setup(x => x.ExecuteAddTheNumbers(numberBack)).Returns(6);
+				
+				int mockedInvocation = numberBack.AddTheNumbers(mockUA.Object);
+				Assert.AreEqual(6, mockedInvocation);
 				Console.WriteLine("passed");
 			}
 			catch (Exception e)
 			{
 				Console.WriteLine("failed");
 			}
-
-			int j = 0;
 		}
 			
 	}
