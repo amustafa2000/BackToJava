@@ -37,15 +37,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Facade", "DP-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Adapter", "DP-Structural-Adapter\DP-Structural-Adapter.csproj", "{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestDB", "IntegrationTestDB\IntegrationTestDB.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExample\EventExample.csproj", "{DC2243C3-F4F0-4774-9679-D9647F51AD45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeExample", "TypeExample\TypeExample.csproj", "{14211F70-787C-41E8-854A-BD5BA4669B69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitAndMOQProject", "UnitTestProject\NUnitAndMOQProject.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeTest", "TypeTest\TypeTest.csproj", "{08EA2892-3E5E-4F02-873D-6EB29F6A5304}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeGC", "TypeTest\TypeGC.csproj", "{08EA2892-3E5E-4F02-873D-6EB29F6A5304}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,10 +123,6 @@ Global
 		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
