@@ -37,11 +37,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Facade", "DP-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP-Structural-Adapter", "DP-Structural-Adapter\DP-Structural-Adapter.csproj", "{CB80C4C9-D5B1-424C-B32D-4E8AB73EB9C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitAndMOQProject", "UnitTestProject\NUnitAndMOQProject.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestDB", "IntegrationTestDB\IntegrationTestDB.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExample\EventExample.csproj", "{DC2243C3-F4F0-4774-9679-D9647F51AD45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeExample", "TypeExample\TypeExample.csproj", "{14211F70-787C-41E8-854A-BD5BA4669B69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +135,10 @@ Global
 		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC2243C3-F4F0-4774-9679-D9647F51AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14211F70-787C-41E8-854A-BD5BA4669B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14211F70-787C-41E8-854A-BD5BA4669B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14211F70-787C-41E8-854A-BD5BA4669B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14211F70-787C-41E8-854A-BD5BA4669B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
