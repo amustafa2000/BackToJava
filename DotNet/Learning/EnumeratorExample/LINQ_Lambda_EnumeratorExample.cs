@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnumeratorExample
 {
-	class Program
+	class LINQ_Lambda_EnumeratorExample
 	{
 		static void Main(string[] args)
 		{

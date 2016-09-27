@@ -10,6 +10,7 @@ namespace DelegateAndFunc
 	{
 		// ** A delegate can be seen as a placeholder for a/some method(s).
 		public delegate int AddOne(int somthing);
+		public delegate int AddTwoNumbers(int somthing, int something2);
 
 		static void Main(string[] args)
 		{
@@ -26,12 +27,15 @@ namespace DelegateAndFunc
 
 			Func<string, int, int> anotherTest = delegate(string x, int someIntx)
 			{
+				int xxxxxxx = AddOneActual(3);
 				return someIntx + 4;
 			};
-
 			Console.WriteLine("delegate XX " + anotherTest("", 2));
+			
+			AddTwoNumbers addTwoNUmbers = AddTwoNumbersImpl;
+			Console.WriteLine("delegate AddTwoNumbersImpl " + addTwoNUmbers(3, 2));
 
-			int oo = 0;
+			Console.ReadKey();
 		}
 
 		public static int AddOneActual(int something)
@@ -42,6 +46,10 @@ namespace DelegateAndFunc
 		public static int AddOneWrong(int something)
 		{
 			return something + 2;
+		}
+		public static int AddTwoNumbersImpl(int something, int something2)
+		{
+			return something + something2;
 		}
 	}
 }
