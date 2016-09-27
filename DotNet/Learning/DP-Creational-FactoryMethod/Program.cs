@@ -20,8 +20,10 @@ namespace DP_Creational_FactoryMethod
 			// Note: constructors call Factory Method
 			Document[] documents = new Document[2];
 
-			documents[0] = new Resume();
-			documents[1] = new Report();
+			Document resDoc = new Resume();
+			Document reportDoc = new Report();
+			documents[0] = resDoc;
+			documents[1] = reportDoc;
 
 			// Display document pages
 			foreach (Document document in documents)

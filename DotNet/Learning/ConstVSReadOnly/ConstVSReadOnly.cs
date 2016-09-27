@@ -25,5 +25,11 @@ namespace ConstVSReadOnly
 			//conOne = 9;
 			roOne = 7;
 		}
+
+		public void cannotChangeReadOnly()
+		{
+			// CANNOT Change after unless Constructor!!!
+			//this.roOne = 99;
+		}
 	}
 }

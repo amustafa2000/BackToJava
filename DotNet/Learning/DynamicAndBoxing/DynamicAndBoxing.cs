@@ -14,14 +14,38 @@ namespace amdev.com
 			MySuperClass superClass = new MySuperClass(1);
 			superClass.ChildrenDoIt(1);
 			Console.WriteLine("superClass.day = " + superClass.day);
+
+			//BOXing and CASTing issues
+			//** mscx is NULL because cannot cast as subclass
+			MySubClass mscASCasting = superClass as MySubClass;
+			if (mscASCasting == null) Console.WriteLine("** using AS mscASCasting is NULL because cannot cast as subclass");
+
+			try
+			{
+				MySubClass mscASBoxing = (MySubClass)superClass;
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("** Using Boxing mscASBoxing is NULL because cannot cast as subclass");
+			}
+
+			//BOXing and CASTing done right
 			MySubClass subClass = new MySubClass(2);
 			subClass.ChildrenDoIt(2);
 			// subClass.DynamicMethod(1);// NOT ALLOWED
 			subClass.DynamicMethod(1, 3);
 			subClass.DynamicMethod("Really", "x", "y", "z");
 			subClass.DynamicMethod("Really", "x", "y", 1);
+
+			MySuperClass msc = subClass as MySuperClass;
+
+			//This is BOXING implecit
 			MySuperClass fromSubClass = subClass;
+			//This is UNBOxing EXPlecit
 			MySubClass sameSubClass = (MySubClass)fromSubClass;
+			
+			
+			
 			// *** dynamic
 			// object x
 			dynamic x = 1;
@@ -32,6 +56,11 @@ namespace amdev.com
 			x.SubClassMethod();
 			Console.WriteLine("Type now = " + x.GetType());
 			sameSubClass.printMe();
+			
+			
+			// var VS dynamic... var canot change type
+			var xx = 1;
+			//xx = "a";
 			int xxxx = 2;
 		}
 	}
@@ -50,6 +79,9 @@ namespace amdev.com
 			this.id = id;
 			this.day = (int)Days.Fri;
 			//this.dayString = Days.Fri;
+		}
+		public void OnlyInParent()
+		{
 		}
 		public virtual void ChildrenDoIt(int x)
 		{

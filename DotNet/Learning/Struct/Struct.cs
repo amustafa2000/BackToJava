@@ -14,6 +14,14 @@ namespace Struct
 			se.x = 1;
 			se.y = 2;
 			int j = se.SumIt();
+
+			for (int i = 0; i < 10000000; i++)
+			{
+				se.x = i;
+				se.y = i+1;
+				j= se.SumIt();
+			}
+
 			ABC myabc = new ABC();
 			int k = 0;
 		}
