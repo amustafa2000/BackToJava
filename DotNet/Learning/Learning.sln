@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAndBoxing", "DynamicAndBoxing\DynamicAndBoxing.csproj", "{707D0FE4-DE35-414D-8AF3-A49D789FE134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterPassing", "ParameterPassing\ParameterPassing.csproj", "{09EA204E-F5CB-4F0C-BF13-ACF3988F2C3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameter_Passing", "ParameterPassing\Parameter_Passing.csproj", "{09EA204E-F5CB-4F0C-BF13-ACF3988F2C3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleGCStringSBInterface", "TupleGCStringSB\TupleGCStringSBInterface.csproj", "{5B121718-A39F-4507-80D5-C030F315B3BB}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAllFolders", "ConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainExampleFromOnlineTest", "ConsoleApplication2\TrainExampleFromOnlineTest.csproj", "{4EE177DD-DECE-4DAF-ACDC-37183E5BCF06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndFunc", "FuncExample\DelegateAndFunc.csproj", "{A1272202-5222-4C58-9EED-B7031D73730F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_Func", "FuncExample\Delegate_Func.csproj", "{A1272202-5222-4C58-9EED-B7031D73730F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassExample", "PartialClassExample\PartialClassExample.csproj", "{9753710C-6839-4364-9DCD-670157A5DB49}"
 EndProject
@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordEncryption", "Passw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{78E1E49B-557D-4912-A81D-D9194C1E9083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumeratorVsIEnumarable", "IEnumeratorVsIEnumarable\IEnumeratorVsIEnumarable.csproj", "{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerator_IEnumarable", "IEnumeratorVsIEnumarable\IEnumerator_IEnumarable.csproj", "{C917AEDE-EC3A-4C76-8CFF-49601F7AB3EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVSReadOnly", "ConstVSReadOnly\ConstVSReadOnly.csproj", "{9A324217-9F41-4978-822E-280B3832A7F0}"
 EndProject
@@ -41,11 +41,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeExample", "TypeExample\TypeExample.csproj", "{14211F70-787C-41E8-854A-BD5BA4669B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitAndMOQProject", "UnitTestProject\NUnitAndMOQProject.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit_MOQ", "UnitTestProject\NUnit_MOQ.csproj", "{FCA0154D-D598-44CA-A200-65B7545317D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeGC", "TypeTest\TypeGC.csproj", "{08EA2892-3E5E-4F02-873D-6EB29F6A5304}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeGC_Dispose", "TypeTest\TypeGC_Dispose.csproj", "{08EA2892-3E5E-4F02-873D-6EB29F6A5304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection_Unity_Example", "DIExample\DependencyInjection_Unity_Example.csproj", "{B1C146BE-41D8-4046-9A0B-49796DC7A5D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency_Injection_Unity_Example", "DIExample\Dependency_Injection_Unity_Example.csproj", "{B1C146BE-41D8-4046-9A0B-49796DC7A5D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Lambda_EnumeratorExample", "EnumeratorExample\LINQ_Lambda_EnumeratorExample.csproj", "{8FD3CE20-1E81-4E87-B336-24AD5CF01065}"
 EndProject

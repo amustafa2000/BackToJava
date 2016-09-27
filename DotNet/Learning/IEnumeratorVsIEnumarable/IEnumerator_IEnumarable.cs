@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IEnumeratorVsIEnumarable
 {
-	class IEnumeratorVsIEnumarable
+	class IEnumerator_IEnumarable
 	{
 		static void Main(string[] args)
 		{
