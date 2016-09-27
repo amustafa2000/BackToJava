@@ -58,6 +58,11 @@ namespace ArrayVsArrayListVsList
 			ip[2] = 2;
 
 
+			object[] objArray = new object[xxx];
+			objArray[0] = 0;
+			objArray[1] = "b";
+			objArray[2] = 2;
+
 			List<int> intList = new List<int>();
 			intList.Add(1);
 			intList.Add(2);
