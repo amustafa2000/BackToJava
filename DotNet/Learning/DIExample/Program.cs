@@ -12,10 +12,10 @@ namespace DIExample
 		static void Main(string[] args)
 		{
 			/* Decouple */
-			IAddCustomer iOracle = new Oracle();
-			IAddCustomer iNoSQL = new NOSQL();
-			iOracle.AddCustomer();
-			iNoSQL.AddCustomer();
+			//IAddCustomer iOracle = new Oracle();
+			//IAddCustomer iNoSQL = new NOSQL();
+			//iOracle.AddCustomer();
+			//iNoSQL.AddCustomer();
 
 			/* Below is Using Unity Decoupled Architecture, DEPENDENCY Injection*/
 			UnityContainer unityContainer = new UnityContainer();
@@ -50,6 +50,7 @@ namespace DIExample
 
 	public class Oracle : IAddCustomer
 	{
+		private int id = 0;
 		public Oracle()
 		{
 		}

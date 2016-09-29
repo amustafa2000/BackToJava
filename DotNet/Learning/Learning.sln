@@ -45,11 +45,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit_MOQ", "UnitTestProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeGC_Dispose", "TypeTest\TypeGC_Dispose.csproj", "{08EA2892-3E5E-4F02-873D-6EB29F6A5304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency_Injection_Unity_Example", "DIExample\Dependency_Injection_Unity_Example.csproj", "{B1C146BE-41D8-4046-9A0B-49796DC7A5D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_Unity_Example", "DIExample\DI_Unity_Example.csproj", "{B1C146BE-41D8-4046-9A0B-49796DC7A5D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Lambda_EnumeratorExample", "EnumeratorExample\LINQ_Lambda_EnumeratorExample.csproj", "{8FD3CE20-1E81-4E87-B336-24AD5CF01065}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mul_Interface_Same_Method", "Mul_Interface_Same_Method\Mul_Interface_Same_Method.csproj", "{E02533D5-C697-4749-895A-64893199B58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_IOC_II", "DI_IOC_II\DI_IOC_II.csproj", "{A0A6D0AD-521A-4636-849C-258713E20DB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +159,10 @@ Global
 		{E02533D5-C697-4749-895A-64893199B58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02533D5-C697-4749-895A-64893199B58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02533D5-C697-4749-895A-64893199B58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
