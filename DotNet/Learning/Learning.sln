@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mul_Interface_Same_Method",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI_IOC_II", "DI_IOC_II\DI_IOC_II.csproj", "{A0A6D0AD-521A-4636-849C-258713E20DB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApplication", "FormsApplication\FormsApplication.csproj", "{48CE1F00-018F-4BBB-A49C-C90C6A14DEB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0A6D0AD-521A-4636-849C-258713E20DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CE1F00-018F-4BBB-A49C-C90C6A14DEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CE1F00-018F-4BBB-A49C-C90C6A14DEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CE1F00-018F-4BBB-A49C-C90C6A14DEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CE1F00-018F-4BBB-A49C-C90C6A14DEB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
