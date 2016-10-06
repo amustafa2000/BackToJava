@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+using System.Security.Principal;
 
 namespace ArrayVsArrayListVsList
 {
@@ -11,6 +12,10 @@ namespace ArrayVsArrayListVsList
 	{
 		static void Main(string[] args)
 		{
+
+
+
+			WindowsImpersonationContext context = WindowsIdentity.Impersonate(System.IntPtr.Zero);
 			// ** Generic is type safe. Collection is not.
 			// ** Hashtable key value pairs
 			Hashtable ht = new Hashtable();
