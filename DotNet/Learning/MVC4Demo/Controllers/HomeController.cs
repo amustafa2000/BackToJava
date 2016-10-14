@@ -11,12 +11,13 @@ namespace MVC4Demo.Controllers
         //
         // GET: /Home/
 
-        public ActionResult Index()
+        public ActionResult Index(string id)
         {
 			List<string> stringList = new List<string>();
 			stringList.Add("USA");
 			stringList.Add("Bangladesh");
 			ViewBag.Countries = stringList;
+			string namePassed = Request.QueryString["Name"];
             return View();
         }
 
