@@ -37,7 +37,7 @@ namespace TypeGC
 			using (DisposibleExample de = new DisposibleExample())
 			{
 
-				// Using will call Disposer()
+				// Using will call Dispose()
 			}
 			// *** Manual dispose ***
 			DisposibleExample de2 = new DisposibleExample();

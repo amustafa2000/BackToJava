@@ -21,7 +21,8 @@ namespace Struct
 				se.y = i+1;
 				j= se.SumIt();
 			}
-
+			INTF test = new StructExample();
+			Console.WriteLine(test.somemethod());
 			ABC myabc = new ABC();
 			int k = 0;
 		}
@@ -41,7 +42,7 @@ namespace Struct
 	public class BabyABC:ABC
 	{
 	}
-	struct StructExample
+	struct StructExample:INTF
 	{
 		public int x;
 		public int y;
@@ -49,6 +50,10 @@ namespace Struct
 		public int SumIt()
 		{
 			return x + y;
+		}
+		public int somemethod()
+		{
+			return 1;
 		}
 	}
 	public interface INTF
