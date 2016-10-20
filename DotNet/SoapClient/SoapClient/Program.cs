@@ -15,6 +15,7 @@ namespace SoapClient
 			Console.WriteLine("---------------------");
 			Console.WriteLine("\n Calling Hello World");
 			Console.WriteLine("  " + obj.HelloWorld());
+			obj.HelloWorldTwo();
 			Console.ReadLine();
 		}
 	}

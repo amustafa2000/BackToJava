@@ -20,7 +20,12 @@ namespace SoapWebService
 		[WebMethod]
 		public string HelloWorld()
 		{
-			return "Hello World";
+			return "Hello Worlds";
+		}
+		[WebMethod]
+		public string HelloWorldTwo()
+		{
+			return "Hello World Two";
 		}
 	}
 }
