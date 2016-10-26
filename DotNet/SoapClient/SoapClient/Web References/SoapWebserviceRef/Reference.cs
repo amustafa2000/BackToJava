@@ -31,6 +31,8 @@ namespace SoapClient.SoapWebserviceRef {
         
         private System.Threading.SendOrPostCallback HelloWorldOperationCompleted;
         
+        private System.Threading.SendOrPostCallback HelloWorldTwoOperationCompleted;
+        
         private bool useDefaultCredentialsSetExplicitly;
         
         /// <remarks/>
@@ -73,6 +75,9 @@ namespace SoapClient.SoapWebserviceRef {
         public event HelloWorldCompletedEventHandler HelloWorldCompleted;
         
         /// <remarks/>
+        public event HelloWorldTwoCompletedEventHandler HelloWorldTwoCompleted;
+        
+        /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://sp2013ii/HelloWorld", RequestNamespace="http://sp2013ii/", ResponseNamespace="http://sp2013ii/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         public string HelloWorld() {
             object[] results = this.Invoke("HelloWorld", new object[0]);
@@ -96,6 +101,33 @@ namespace SoapClient.SoapWebserviceRef {
             if ((this.HelloWorldCompleted != null)) {
                 System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
                 this.HelloWorldCompleted(this, new HelloWorldCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://sp2013ii/HelloWorldTwo", RequestNamespace="http://sp2013ii/", ResponseNamespace="http://sp2013ii/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string HelloWorldTwo() {
+            object[] results = this.Invoke("HelloWorldTwo", new object[0]);
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void HelloWorldTwoAsync() {
+            this.HelloWorldTwoAsync(null);
+        }
+        
+        /// <remarks/>
+        public void HelloWorldTwoAsync(object userState) {
+            if ((this.HelloWorldTwoOperationCompleted == null)) {
+                this.HelloWorldTwoOperationCompleted = new System.Threading.SendOrPostCallback(this.OnHelloWorldTwoOperationCompleted);
+            }
+            this.InvokeAsync("HelloWorldTwo", new object[0], this.HelloWorldTwoOperationCompleted, userState);
+        }
+        
+        private void OnHelloWorldTwoOperationCompleted(object arg) {
+            if ((this.HelloWorldTwoCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.HelloWorldTwoCompleted(this, new HelloWorldTwoCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
             }
         }
         
@@ -131,6 +163,32 @@ namespace SoapClient.SoapWebserviceRef {
         private object[] results;
         
         internal HelloWorldCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.34209")]
+    public delegate void HelloWorldTwoCompletedEventHandler(object sender, HelloWorldTwoCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.34209")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class HelloWorldTwoCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal HelloWorldTwoCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }
