@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{81E9F620-C43F-4F82-ABB7-BB2AED2CE021}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTContains", "BSTContains\BSTContains.csproj", "{D2B9C68F-CD42-4638-B227-28B7A9D454C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMajorityElement", "FindMajorityElement\FindMajorityElement.csproj", "{109CA940-79C8-48E0-9C20-F90038CE7F06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +215,14 @@ Global
 		{81E9F620-C43F-4F82-ABB7-BB2AED2CE021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E9F620-C43F-4F82-ABB7-BB2AED2CE021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E9F620-C43F-4F82-ABB7-BB2AED2CE021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B9C68F-CD42-4638-B227-28B7A9D454C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B9C68F-CD42-4638-B227-28B7A9D454C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B9C68F-CD42-4638-B227-28B7A9D454C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B9C68F-CD42-4638-B227-28B7A9D454C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109CA940-79C8-48E0-9C20-F90038CE7F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109CA940-79C8-48E0-9C20-F90038CE7F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109CA940-79C8-48E0-9C20-F90038CE7F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109CA940-79C8-48E0-9C20-F90038CE7F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
