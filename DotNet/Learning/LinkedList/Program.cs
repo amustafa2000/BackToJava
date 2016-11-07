@@ -24,13 +24,33 @@ namespace LinkedList
 			myList.AddSorted(2);
 			myList.AddSorted(31);
 			myList.AddSorted(33);
+			myList.AddSorted(33);
 			myList.AddSorted(23);
 			myList.AddSorted(13);
 			myList.AddSorted(3);
 			myList.AddSorted(3);
 			myList.Print();
+			RemoveDuplicate(myList);
+			Console.WriteLine("Removing duplicates");
+			myList.Print();
 			Console.ReadKey();
 		}
+		static void RemoveDuplicate(MyList myList)
+		{
+			Node node = myList.headNode;
+			while (node.next != null)
+			{
+				if (node.data == node.next.data)
+				{
+					node.next = node.next.next;
+				}
+				else
+				{
+					node = node.next;
+				}
+			}
+		}
+
 	}
 	public class MyList
 	{
