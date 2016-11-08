@@ -30,6 +30,33 @@ for(var i=0;i<=20;i++){
 
 
 <script>
+    function Rabbit(name) {
+        this.name = name;
+        this.getName = function() {
+            return this.name;
+        }
+    }
+    Rabbit.prototype = {
+        setName: function (name) {
+            this.name = name;
+        }
+    };
+
+    Rabbit.prototype.PFunction = function (name) {
+        this.name = name;
+    }
+
+    var myDate = new Date();
+    var myBool = new Boolean();
+    var myString = new String();
+    var myRabbit = new Rabbit("hiRabbit");
+    myRabbit.setName("Using Prototype");
+    myRabbit.PFunction("xyxxxx");
+    var myObject = {name:"Name_",label:"Label_"};
+    var myArray = new Array();
+    var myArray2 = [1,2,3,4];
+    var xxx = null;
+    var yyy;
     function color_of_the_day(daysAfterToday){
         var colorArray = ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Black"];
         //Throw exception for -ve

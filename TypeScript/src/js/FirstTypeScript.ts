@@ -1,7 +1,7 @@
 //Here is a regular javascript class
 
 function Rabbit(name) {
-    this.name = name
+    this.name = name;
     this.getName = function() {
         return this.name;
     }
