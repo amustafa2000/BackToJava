@@ -7,6 +7,7 @@ function Rabbit(name) {
     }
 }
 
+// Below is TypeScript
 interface vocalize {
     speakOut();
 }

@@ -37,6 +37,12 @@ namespace AbstractClass
 	{
 		static void Main(string[] args)
 		{
+
+			List<string> FirstList = new List<string> { "1", "2", "testing, really testing" };
+			//string joined = "'" + string.Join("','", FirstList) + "'";
+			List<string> SecondList = new List<string> { "2", "1", "xxx", "testing, really testing" };
+			List<string> ThirdList = SecondList.Except(FirstList).ToList();
+
 			AbstractClass cl1 = new SomeClassUsesAbstractImpl();
 			cl1.VirtualClassMethod();
 			AbstractClass cl2 = new SomeClassOverrides();
