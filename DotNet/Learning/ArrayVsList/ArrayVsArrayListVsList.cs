@@ -12,6 +12,58 @@ namespace ArrayVsArrayListVsList
 	{
 		static void Main(string[] args)
 		{
+			//Multi Dimentional Array Initialization I
+			int[,] multiDimArray = { { 1, 0 }, { 2, 0 }, { 3, 0 } };
+			for (int ii = 0; ii < 3; ii++)
+			{
+				for (int jj = 0; jj < 2; jj++)
+				{
+					Console.WriteLine(multiDimArray[ii, jj]);
+				}
+			}
+			//Multi Dimentional Array Initialization II
+			int[,] multiDimArray2 = new int[3,2];
+			multiDimArray2[0, 0] = 1;
+			multiDimArray2[0, 1] = 0;
+			multiDimArray2[1, 0] = 2;
+			multiDimArray2[1, 1] = 0;
+			multiDimArray2[2, 0] = 3;
+			multiDimArray2[2, 1] = 0;
+			for (int ii = 0; ii < 3; ii++)
+			{
+				for (int jj = 0; jj < 2; jj++)
+				{
+					Console.WriteLine(multiDimArray2[ii, jj]);
+				}
+			}
+
+			Dictionary<int, string> myDict = new Dictionary<int, string>();
+			myDict.Add(0, "a");
+			myDict.Add(2, "c");
+			myDict.Add(4, "e");
+			// iterate through all elements
+			foreach (var item in myDict)
+			{
+				Console.WriteLine("Key = " + item.Key + " Value = " + item.Value);
+			}
+			var keys = myDict.Keys;
+			foreach (var item in keys)
+			{
+				Console.WriteLine("Key = " + item + " Value = " + myDict[item]);
+			}
+			var valuesx = myDict.Values;
+			foreach (var item in valuesx)
+			{
+				Console.WriteLine("Value = " + item);
+			}
+			IEnumerator ide = myDict.GetEnumerator();
+			while (ide.MoveNext())
+			{
+				var pair = ide.Current;//????? what to do with this??????
+				//Console.WriteLine(pair.Value);
+			}
+
+			Console.WriteLine(myDict[0]);
 
 
 
