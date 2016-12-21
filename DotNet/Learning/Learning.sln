@@ -93,11 +93,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient_WPF", "Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructVsClass", "StructVsClass\StructVsClass.csproj", "{BCC88438-562A-425E-83ED-EFF4F12C49BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAllEvenInAnArray", "SumAllEvenInAnArray\SumAllEvenInAnArray.csproj", "{6F230EBE-C5E6-4C97-A352-5198C148877C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_SumAllEvenInAnArray", "SumAllEvenInAnArray\LINQ_SumAllEvenInAnArray.csproj", "{6F230EBE-C5E6-4C97-A352-5198C148877C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{0A4A3F25-C0EE-4D81-B48B-69C78F68F1E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExample", "FunctionExample\DelegateExample.csproj", "{275A57A3-D609-4583-87E8-41BB8F8F6559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{603C63A3-D608-408A-8164-88C3C5A7A249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Link_DB", "Link_DB\Link_DB.csproj", "{C5CB8A79-C250-41D2-A353-2AED9A8C0933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,6 +305,14 @@ Global
 		{275A57A3-D609-4583-87E8-41BB8F8F6559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275A57A3-D609-4583-87E8-41BB8F8F6559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{275A57A3-D609-4583-87E8-41BB8F8F6559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603C63A3-D608-408A-8164-88C3C5A7A249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603C63A3-D608-408A-8164-88C3C5A7A249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603C63A3-D608-408A-8164-88C3C5A7A249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603C63A3-D608-408A-8164-88C3C5A7A249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
