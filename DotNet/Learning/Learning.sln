@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "Extensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Link_DB", "Link_DB\Link_DB.csproj", "{C5CB8A79-C250-41D2-A353-2AED9A8C0933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrambleString", "ScrambleString\ScrambleString.csproj", "{FCF7DC17-5872-47F4-8C3B-28031693E3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -313,6 +315,10 @@ Global
 		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5CB8A79-C250-41D2-A353-2AED9A8C0933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF7DC17-5872-47F4-8C3B-28031693E3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF7DC17-5872-47F4-8C3B-28031693E3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF7DC17-5872-47F4-8C3B-28031693E3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF7DC17-5872-47F4-8C3B-28031693E3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
