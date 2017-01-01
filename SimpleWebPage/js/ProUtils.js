@@ -8,9 +8,26 @@ function ProUtils() {
 ProUtils.prototype = {
     constructor: ProUtils,
     generateProductId: function () {
-        var max = 100000;
-        var random = Math.floor(Math.random() * max);
-        return random;
+        //var max = 100000;
+        //var random = Math.floor(Math.random() * max);
+        //return random;
+        /*var allProducts = this.getAllTheProducts();
+        var nextId = 0;
+        for(var i =0 ; i< allProducts.length;i++){
+            var thisItemId = allProducts[i].id;
+            if(thisItemId >= nextId) {
+                nextId = thisItemId + 1;
+            }
+        }
+        return nextId;*/
+        var lastId = localStorage.getItem("lastId");
+        if (lastId == null){
+            localStorage.setItem("lastId", "0");
+            return 0;
+        }else {
+            localStorage.setItem("lastId", parseInt(lastId)+1);
+            return parseInt(lastId)+1;
+        }
     },
     addProduct: function (name, label) {
         var myProducts = proUtils.getAllTheProducts();

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scramble String</title>
+    <script>
+        (function scrambleString(toScramble) {
+            if(toScramble == null) {
+                console.log("Nothing to scramble");
+            }else{
+                for(var ii=0; ii<toScramble.length-1;ii++) {
+                    var max = 100;
+                    var random1 = Math.floor(Math.random() * max);
+                    var random2 = Math.floor(Math.random() * max);
+                    var firstIndex = random1 % toScramble.length;
+                    var secondIndex = random2 % toScramble.length;
+                    var tempChar = toScramble[firstIndex];
+                    if(firstIndex != toScramble.length-1)
+                        toScramble = toScramble.substr(0,firstIndex) + toScramble[secondIndex] + toScramble.substr(firstIndex+1);
+                    else
+                        toScramble = toScramble.substr(0,firstIndex) + toScramble[secondIndex];
+
+                    if(secondIndex != toScramble.length-1)
+                        toScramble = toScramble.substr(0,secondIndex) + tempChar + toScramble.substr(secondIndex+1);
+                    else
+                        toScramble = toScramble.substr(0,secondIndex) + tempChar;
+                }
+            }
+            console.log(toScramble);
+        })("ABCD1234");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
