@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://neptune:8088/SoapWebservice.asmx?wsdl" docRef="http://neptune:8088/SoapWebservice.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://neptune:8088/SoapWebservice.asmx" xmlns:q1="http://neptune/" binding="q1:RestWebserviceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://neptune:8088/SoapWebservice.asmx" xmlns:q2="http://neptune/" binding="q2:RestWebserviceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

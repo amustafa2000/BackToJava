@@ -9,7 +9,7 @@ namespace SoapWebService
 	/// <summary>
 	/// Summary description for WebService1
 	/// </summary>
-	[WebService(Namespace = "http://sp2013ii/")]
+	[WebService(Namespace = "http://neptune/")]
 	[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 	[System.ComponentModel.ToolboxItem(false)]
 	// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 

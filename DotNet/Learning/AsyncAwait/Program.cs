@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AsyncAwait
 {
 	class Program {
-		private static string result;
+		private static string result = "Initial";
  
 		static void Main() {
 			SaySomething();

@@ -1,0 +1,6 @@
+C:\Work\Git\BackToJava\DotNet\Learning\SoapTestII\SoapTestII\bin\Debug\SoapTestII.exe.config
+C:\Work\Git\BackToJava\DotNet\Learning\SoapTestII\SoapTestII\bin\Debug\SoapTestII.exe
+C:\Work\Git\BackToJava\DotNet\Learning\SoapTestII\SoapTestII\bin\Debug\SoapTestII.pdb
+C:\Work\Git\BackToJava\DotNet\Learning\SoapTestII\SoapTestII\obj\Debug\SoapTestII.csprojResolveAssemblyReference.cache
+C:\Work\Git\BackToJava\DotNet\Learning\SoapTestII\SoapTestII\obj\Debug\SoapTestII.exe
+C:\Work\Git\BackToJava\DotNet\Learning\SoapTestII\SoapTestII\obj\Debug\SoapTestII.pdb

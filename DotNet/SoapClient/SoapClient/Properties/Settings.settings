@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SoapClient.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="SoapClient_sp2013ii_RestWebservice" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://sp2013ii:8045/SoapWebservice.asmx</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>
