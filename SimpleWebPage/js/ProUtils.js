@@ -30,9 +30,9 @@ ProUtils.prototype = {
         }
     },
     addProduct: function (name, label) {
-        var myProducts = proUtils.getAllTheProducts();
+        var myProducts = this.getAllTheProducts();
         var newProduct = new Product();
-        newProduct.addProduct(name, label, proUtils);
+        newProduct.addProduct(name, label, this);
         myProducts.push(newProduct);
         proUtils.saveProducts(myProducts);
     },

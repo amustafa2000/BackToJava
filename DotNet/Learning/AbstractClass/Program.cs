@@ -27,7 +27,13 @@ namespace AbstractClass
 	}
 	public class NoOverrideKeyWordImpl : AbstractClass
 	{
-		public void VirtualClassMethod()
+        /*
+         *  If you don’t specify either new or overrides, the resulting output is the same
+         *  as if you specified new, but you’ll also get a compiler warning (as you may not be aware that you’re
+         *  hiding a method in the base class method, or indeed you may have wanted to override it, and merely forgot to
+         *  include the keyword).
+         * */
+        public new void VirtualClassMethod()
 		{
 			//base.VirtualClassMethod();
 			Console.WriteLine("In SubClass with No Override method");

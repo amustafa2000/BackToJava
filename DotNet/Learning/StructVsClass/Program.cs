@@ -11,7 +11,7 @@ namespace StructVsClass
 	 * */
 	class Program
 	{
-		enum e { AA, bb, cc };	
+		enum myEnum { AA, bb, cc };	
 		static void Main(string[] args)
 		{
 			TestClass t1 = new TestClass();
@@ -25,8 +25,8 @@ namespace StructVsClass
 			Console.WriteLine(sInt);
 			Console.WriteLine(++sInt);
 			Console.WriteLine(sInt);
-			Console.WriteLine(e.AA);
-			if (0 == e.AA)
+			Console.WriteLine(myEnum.AA);
+			if (0 == myEnum.AA)
 			{
 				Console.WriteLine("Holly Molly");
 			}

@@ -15,6 +15,7 @@ namespace SelectionSort
 		static void Main(string[] args)
 		{
 			int[] arrayToSort = new int[10] { 100, 50, 20, 40, 10, 60, 80, 70, 90, 30 };
+            int[] sortedArray = arrayToSort.OrderBy(item => item).ToArray();
 			Console.WriteLine("Before Sorting ...");
 			for (int i = 0; i < arrayToSort.Length; i++)
 			{

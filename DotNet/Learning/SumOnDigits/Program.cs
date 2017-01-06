@@ -9,7 +9,7 @@ namespace SumOnDigits
 	{
 		static void Main(string[] args)
 		{
-			int theNumber = 00012301;
+			int theNumber = 00018881;
 			Console.WriteLine(Sum(theNumber));
 			Console.ReadKey();
 		}

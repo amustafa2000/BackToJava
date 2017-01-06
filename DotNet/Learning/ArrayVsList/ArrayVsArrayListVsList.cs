@@ -12,8 +12,15 @@ namespace ArrayVsArrayListVsList
 	{
 		static void Main(string[] args)
 		{
-			//Multi Dimentional Array Initialization I
-			int[,] multiDimArray = { { 1, 0 }, { 2, 0 }, { 3, 0 } };
+            //How to define single dim array
+            int[] mySingleDimArray = new int[3];
+            mySingleDimArray[0] = 1;
+            mySingleDimArray[1] = 2;
+            mySingleDimArray[2] = 3;
+            int[] mySingleDimArray2 = new int[3] { 1, 2, 3 };
+
+            //Multi Dimentional Array Initialization I
+            int[,] multiDimArray = { { 1, 0 }, { 2, 0 }, { 3, 0 } };
 			for (int ii = 0; ii < 3; ii++)
 			{
 				for (int jj = 0; jj < 2; jj++)

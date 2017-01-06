@@ -20,6 +20,10 @@ namespace IEnumeratorVsIEnumarable
 			intList.Add(10);
 			intList.Add(20);
 			intList.Add(30);
+            foreach (int thisInt in intList)
+            {
+                Console.WriteLine(thisInt);
+            }
 			IEnumerable<int> iEnum = (IEnumerable<int>)intList;
 			foreach (int item in iEnum)
 			{

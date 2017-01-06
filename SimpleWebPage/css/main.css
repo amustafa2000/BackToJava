@@ -1,0 +1,16 @@
+#main {
+    margin: 40px auto;
+    text-align: center;
+}
+
+table {
+    background: #ccc;
+    border: 3px solid red;
+    margin:0 auto;
+
+}
+table td {
+    padding: 15px;
+    border: 1px solid blue;
+
+}
