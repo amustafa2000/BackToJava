@@ -1,5 +1,9 @@
 package test.service;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -7,27 +11,33 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 import test.model.Country;
 
 public class DBService {
 	private static DBService singleton = null;
-	private String dbName;
-	private String dbUser;
-	private String dbPass;
+	private String dbUrl = null;
+	private String dbUser = null;
+	private String dbPass = null;
 	public static DBService getInstance(){
-		String readDBName = "jdbc:mysql://localhost:3306/world";
-		String readDBUser = "root";
-		String readDBPass = "933malibagh";
-		if(singleton == null){
-			singleton = new DBService(readDBName, readDBUser, readDBPass);
+		if(singleton == null || (singleton != null && (singleton.dbUrl == null || singleton.dbUser == null || singleton.dbPass == null))){
+			Properties props = new Properties();
+			try {
+				props.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("config.properties"));
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			singleton = new DBService(props.getProperty("url"), props.getProperty("username"), props.getProperty("password"));
 		}
 		return singleton;
 	}
 	private DBService(String dbName, String dbUser, String dbPass){
 		try{
 			Class.forName("com.mysql.jdbc.Driver");  
-			this.dbName = dbName;
+			this.dbUrl = dbName;
 			this.dbPass = dbPass;
 			this.dbUser = dbUser;
 		}catch(Exception e){
@@ -37,7 +47,7 @@ public class DBService {
 	private Connection getConnection(){
 		Connection conn = null;
 		try {
-			conn= DriverManager.getConnection(dbName,dbUser,dbPass);
+			conn= DriverManager.getConnection(dbUrl,dbUser,dbPass);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
