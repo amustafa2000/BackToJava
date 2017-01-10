@@ -80,6 +80,13 @@ ProUtils.prototype = {
             }
         }
         this.saveProducts(allProducts);
+    },
+    /*
+    * Expected element id is like productId:someAttrubute. attributes can be like id, name, labe
+    * Expected input is 1213:Id or 8989:label...
+     */
+    getProductIdFromElemetId: function (elementId) {
+        var splitedStuff = elementId.split(":");
+        return splitedStuff[0];
     }
-
 }

@@ -18,7 +18,6 @@ $(document).ready(function(){
     });
 
     function drawTable() {
-
         console.log("Draw");
         var proUtils = new ProUtils();
         var allProducts = proUtils.getAllTheProducts();
@@ -27,21 +26,52 @@ $(document).ready(function(){
         var someVAr = $("#mainTable").append($('<table>'));
         var theTable = $("#mainTable table");
         for(var i =0;i<allProducts.length;i++) {
+            var thisProductId =  allProducts[i].id;
             theTable.append($('<tr>'));
             var theRow = theTable.find("tr:last");
             theRow.attr("id",allProducts[i].id );
+
             theRow.append($('<td>'));
             var theLastTD = theRow.find("td:last");
+            var theTDId = allProducts[i].id + ":id";
+            theLastTD.attr("id", theTDId);
             theLastTD.text(allProducts[i].id);
-            theRow.append($('<td>'));
-            theLastTD = theRow.find("td:last");
-            theLastTD.text(allProducts[i].name);
-            theRow.append($('<td>'));
-            theLastTD = theRow.find("td:last");
-            theLastTD.text(allProducts[i].label);
-        }
-		var xx = "xxx";
+            theLastTD.click(
+                function (xxx) {
+                var thisIndex = xxx;
+                //getIfForThisCell(this.id);
+                return (function () {
+                    console.log("jjjjjjjjjjjjjjjj " + thisIndex);
+                })
+                }(thisProductId)
 
+            );
+
+            theRow.append($('<td>'));
+            theLastTD = theRow.find("td:last");
+            theTDId = allProducts[i].id + ":name";
+            theLastTD.attr("id", theTDId);
+            theLastTD.text(allProducts[i].name);
+            theLastTD.click(function () {
+                //getIfForThisCell(this.id);
+            });
+
+            theRow.append($('<td>'));
+            theTDId = allProducts[i].id + ":label";
+            theLastTD = theRow.find("td:last");
+            theLastTD.attr("id", theTDId);
+            theLastTD.text(allProducts[i].label);
+            theLastTD.click(function () {
+                //getIfForThisCell(this.id);
+            });
+
+        }
+        function getIfForThisCell(theElementID) {
+            var proUtils = new ProUtils();
+            var actualProductId = proUtils.getProductIdFromElemetId(theElementID);
+            var soTheProductIs = proUtils.getProductWithId(actualProductId);
+            console.log("Id = " + soTheProductIs.id + " Name : " +soTheProductIs.name + " Label = " + soTheProductIs.label);
+        }
 /*
         var tableHtml = ('<table>');
         for(var i =0;i<allProducts.length;i++) {

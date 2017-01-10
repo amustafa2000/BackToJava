@@ -3,25 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="7966c08d-e646-4582-8f3f-4e51321b4a72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/.vs/Learning/v14/.suo" afterPath="$PROJECT_DIR$/../DotNet/Learning/.vs/Learning/v14/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/SoapTestII/.vs/SoapTestII/v14/.suo" afterPath="$PROJECT_DIR$/../DotNet/Learning/SoapTestII/.vs/SoapTestII/v14/.suo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/bin/Debug/StructVsClass.exe" afterPath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/bin/Debug/StructVsClass.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/bin/Debug/StructVsClass.pdb" afterPath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/bin/Debug/StructVsClass.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/bin/Debug/StructVsClass.vshost.exe" afterPath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/bin/Debug/StructVsClass.vshost.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/obj/Debug/StructVsClass.exe" afterPath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/obj/Debug/StructVsClass.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/obj/Debug/StructVsClass.pdb" afterPath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/obj/Debug/StructVsClass.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/SoapWebService/.vs/SoapWebService/v14/.suo" afterPath="$PROJECT_DIR$/../DotNet/SoapWebService/.vs/SoapWebService/v14/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/AbstractClass/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/AbstractClass/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/ArrayVsList/ArrayVsArrayListVsList.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/ArrayVsList/ArrayVsArrayListVsList.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/IEnumeratorVsIEnumarable/IEnumerator_IEnumarable.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/IEnumeratorVsIEnumarable/IEnumerator_IEnumarable.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/SelectionSort/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/SelectionSort/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/StructVsClass/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/SumAllEvenInAnArray/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/SumAllEvenInAnArray/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/BSTContains/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/BSTContains/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/FuncExample/Delegate_Func.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/FuncExample/Delegate_Func.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/RotateArray/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/RotateArray/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DotNet/Learning/SumOnDigits/Program.cs" afterPath="$PROJECT_DIR$/../DotNet/Learning/SumOnDigits/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LocalStoreage.html" afterPath="$PROJECT_DIR$/LocalStoreage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ProUtils.js" afterPath="$PROJECT_DIR$/js/ProUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Product.js" afterPath="$PROJECT_DIR$/js/Product.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -56,8 +49,8 @@
       <file leaf-file-name="Reminder.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reminder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -66,8 +59,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -76,8 +69,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="595">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -98,8 +91,8 @@
       <file leaf-file-name="ProUtils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ProUtils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+            <state relative-caret-position="306">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc;n#ProUtils#0" expanded="false" />
               </folding>
@@ -129,11 +122,11 @@
         <option value="$PROJECT_DIR$/js/Utils.js" />
         <option value="$PROJECT_DIR$/Reminder.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/LocalStoreage.html" />
-        <option value="$PROJECT_DIR$/js/ProUtils.js" />
         <option value="$PROJECT_DIR$/js/Product.js" />
+        <option value="$PROJECT_DIR$/js/ProUtils.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -165,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +201,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -302,11 +295,15 @@
       <workItem from="1483504922974" duration="725000" />
       <workItem from="1483514631870" duration="14000" />
       <workItem from="1483632105380" duration="14402000" />
+      <workItem from="1483680273510" duration="616000" />
+      <workItem from="1483718156125" duration="4474000" />
+      <workItem from="1483724186389" duration="3258000" />
+      <workItem from="1484025192579" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37453000" />
+    <option name="totallyTimeSpent" value="46437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,24 +316,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18645833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13493724" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,18 +706,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="1709" column="0" lean-forward="false" selection-start-line="1709" selection-start-column="0" selection-end-line="1709" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="5916" column="20" lean-forward="false" selection-start-line="5916" selection-start-column="12" selection-end-line="5916" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reminder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -733,26 +736,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-3.1.1.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="5916" column="20" lean-forward="false" selection-start-line="5916" selection-start-column="12" selection-end-line="5916" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reminder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -769,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ProUtils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="51" column="47" lean-forward="false" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        <state relative-caret-position="306">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc;n#ProUtils#0" expanded="false" />
           </folding>

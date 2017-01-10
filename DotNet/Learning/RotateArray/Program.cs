@@ -10,7 +10,7 @@ namespace RotateArray
 		static void Main(string[] args)
 		{
 			int[] theArray = new int[4] {1,2,3,4};
-			int noOfElementsToRotate = 3;
+			int noOfElementsToRotate = theArray.Length - 1;
 			int tempValue;
 			for (int i = 0; i < noOfElementsToRotate; i++)
 			{
